@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import diff_match_patch from 'diff-match-patch'
+
 
 
 

@@ -15,7 +15,7 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         script: [{
-            src: "diff-match-patch.js",
+            src: "diff_match_patch.js",
         }, ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
