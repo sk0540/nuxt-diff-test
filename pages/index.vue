@@ -40,7 +40,7 @@ export default {
 
     head() {
         return {
-            title: "nuxt demo",
+            title: "文章比較ツール diff",
 
 
         }
@@ -77,7 +77,6 @@ export default {
 
             let dmp = new diff_match_patch();
             this.diffs = dmp.diff_main(this.input.A, this.input.B);
-            console.log(this.diffs);
             let br_out = { color: '', text: '\n' };
             for (let i = 0; i < this.diffs.length; i++) {
                 let c_out = { color: '', text: '' };
